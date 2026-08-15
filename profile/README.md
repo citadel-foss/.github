@@ -2,15 +2,15 @@
 
 ![Citadel Tech Logo](./logo.png)
 
-**Next Gen Sovereign Tech Stack**
+**Building distributed systems over Bitcoin, LN, and other Freedom Stack.**
 
 ## About
 
-We build protocols and interfaces on Bitcoin and related L2s to deliver interoperability, availability, and security benefits for users of the global Bitcoin network. Aiming to create the __**Open Source Bitcoin Freedom Stack**__, that the internet needs so desperately right now. 
+We build protocols and interfaces on Bitcoin and related L2s to deliver interoperability via decentralized networks. Aiming to build the __**Open Source Freedom Stack**__, that the internet needs so desperately right now. 
 
-Built with love by diverse communities of open source developers from the Global South, in pure FOSS licenses.  
+Built with love by diverse communities of open source developers from the Global South, under pure FOSS licenses.  
 
-Coinswap, being our first foundational protocol, facilitates decentralized atomic swaps without trusted third parties.
+OpenSwap is our first foundational protocol; it facilitates trustless Atomic Swaps over a decentralized marketplace embedded in the Bitcoin blockchain, and discoverable via Nostr.
 
 Website: https://citadelfoss.xyz/
 
@@ -20,18 +20,17 @@ Website: https://citadelfoss.xyz/
 
 | Project | Repository | Description |
 |---------|------------|-------------|
-| **Coinswap** | [coinswap](https://github.com/citadel-tech/coinswap) | Functioning, minimal-viable binaries and libraries to perform a trustless, p2p [Maxwell-Belcher Coinswap Protocol](https://gist.github.com/chris-belcher/9144bd57a91c194e332fb5ca371d0964) |
-| **Coinswap-FFI** | [coinswap-ffi](https://github.com/citadel-tech/coinswap-ffi) | FFI Interface for the Coinswap client library |
-| **Taker App** | [taker-app](https://github.com/citadel-tech/taker-app) | An example desktop client built in Nodejs using the coinswap-ffi |
-| **Maker Dashboard** | [maker-dashboard](https://github.com/citadel-tech/maker-dasboard) | A GUI dashboard for Maker managements, dockerized to run in home nodes |
-| **Coinswap-Docker** | [coinswap-docker](https://github.com/citadel-tech/coinswap/blob/master/docs/docker.md) | Pre-configured Docker setup with `bitcoind(Mutinynet)`, `Tor`, `makerd`, and `maker-cli`, for quick deployment of makers |
+| **OpenSwap Core** | [openswap](https://github.com/citadel-foss/openswap) | Core libraries and infrastructures for [Maxwell-Belcher AtomicSwap Protocol](https://gist.github.com/chris-belcher/9144bd57a91c194e332fb5ca371d0964) |
+| **OpenSwap-FFI** | [openswap-ffi](https://github.com/citadel-foss/openswap-ffi) | Language bindings over OpenSwap Core library |
+| **Taker App** | [taker-app](https://github.com/citadel-tech/taker-app) | An example desktop client built in Nodejs using the openswap-ffi |
+| **Maker Dashboard** | [maker-dashboard](https://github.com/citadel-tech/maker-dasboard) | A GUI dashboard for managing multiple maker servers. Built to run on home node servers |
 
 *Auxiliary Infrastructures*
 
 | Project | Repository | Description |
 |---------|------------|-------------|
-| **mill-io** | [mill-io](https://github.com/citadel-tech/mill-io) | A lightweight performant io library in rust, for efficient non-blocking io operations without heavyweight async runtimes |
-| **rust-coinselect** | [rust-coinselect](https://github.com/citadel-tech/rust-coinselect) | A coinselection library in rust to perform CS via multiple algorithms and choose the best result based on waste-metrics, inspired from CS algorithms of Bitcoin Core |
+| **mill-io** | [mill-io](https://github.com/citadel-tech/mill-io) | A lightweight, performant io library in Rust, for efficient non-blocking io operations without heavyweight async runtimes |
+| **rust-coinselect** | [rust-coinselect](https://github.com/citadel-tech/rust-coinselect) | A coin-selection library in Rust to perform CS via multiple algorithms and choose the best result based on waste metrics, inspired by CS algorithms of Bitcoin Core |
 
 
 ## Documentation & Research
@@ -40,7 +39,7 @@ Website: https://citadelfoss.xyz/
 
 | Project | Repository | Description |
 |---------|------------|-------------|
-| **Protocol Specification** | [Coinswap-Protocol-Specification](https://github.com/citadel-tech/Coinswap-Protocol-Specification) | Technical specification for the coinswap protocol |
+| **Protocol Specification** | [OpenSwap-Protocol-Specification](https://github.com/citadel-foss/OpenSwap-Protocol-Specification) | Technical specification for the OpenSwap Protocol |
 
 
 ## Community
