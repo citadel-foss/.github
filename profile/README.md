@@ -1,8 +1,6 @@
 # Citadel FOSS
 
-![Citadel Tech Logo](./logo.png)
-
-**Building distributed systems over Bitcoin, LN, and other Freedom Stack.**
+**Decentralizing the Bitcoin ecosystem's critical infrastructure.** 
 
 ## About
 
@@ -10,7 +8,7 @@ We build protocols and interfaces on Bitcoin and related L2s to deliver interope
 
 Built with love by diverse communities of open source developers from the Global South, under pure FOSS licenses.  
 
-OpenSwap is our first foundational protocol; it facilitates trustless Atomic Swaps over a decentralized marketplace embedded in the Bitcoin blockchain, and discoverable via Nostr.
+**OpenSwap** is our first foundational protocol; it facilitates trustless Atomic Swaps over a decentralized marketplace embedded in the Bitcoin blockchain, and discoverable via Nostr.
 
 Website: https://citadelfoss.xyz/
 
