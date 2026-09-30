@@ -8,21 +8,26 @@ We build protocols and infrastructure on Bitcoin and other L2S to enhance intero
 
 Providing a decentralized alternative to create a healthy and resilient swap market, without any Central Point of Failure.
 
-Website: https://citadelfoss.xyz/
+Website: https://openswap.live/
 
 ## Projects
 *Core libraries and applications*
+
 | Project | Repository | Description |
 |---------|------------|-------------|
 | **OpenSwap Core** | [openswap](https://github.com/citadel-foss/openswap) | Core libraries and infrastructures for [Maxwell-Belcher AtomicSwap Protocol](https://gist.github.com/chris-belcher/9144bd57a91c194e332fb5ca371d0964) |
 | **OpenSwap-FFI** | [openswap-ffi](https://github.com/citadel-foss/openswap-ffi) | Language bindings over OpenSwap Core library |
-| **Taker App** | [taker-app](https://github.com/citadel-tech/taker-app) | An example desktop client built in Nodejs using the openswap-ffi |
-| **Maker Dashboard** | [maker-dashboard](https://github.com/citadel-tech/maker-dasboard) | A GUI dashboard for managing multiple maker servers. Built to run on home node servers |
-*Auxiliary Infrastructures*
+| **Portal** | [portal](https://github.com/citadel-foss/portal) | A full-featured OpenSwap app: a Bitcoin wallet with private swaps over Tor built in. Run it as a Wallet to swap, or as a Router to provide liquidity and earn fees. Runs as a desktop app or a self-hosted server |
+
+*Auxiliary Projects*
+
 | Project | Repository | Description |
 |---------|------------|-------------|
+| **Taker App** | [taker-app](https://github.com/citadel-foss/taker-app) | An example desktop client built in Nodejs using the openswap-ffi |
+| **Maker Dashboard** | [maker-dashboard](https://github.com/citadel-foss/maker-dashboard) | A GUI dashboard for managing multiple maker servers. Built to run on home node servers |
 | **mill-io** | [mill-io](https://github.com/citadel-tech/mill-io) | A lightweight, performant io library in Rust, for efficient non-blocking io operations without heavyweight async runtimes |
 | **rust-coinselect** | [rust-coinselect](https://github.com/citadel-tech/rust-coinselect) | A coin-selection library in Rust to perform CS via multiple algorithms and choose the best result based on waste metrics, inspired by CS algorithms of Bitcoin Core |
+
 ## Documentation & Research
 *Protocol specifications and experimental implementations*
 | Project | Repository | Description |
